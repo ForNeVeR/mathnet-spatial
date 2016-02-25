@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Euclidean\Box3D.cs" />
     <Compile Include="Euclidean\EulerAngles.cs" />
     <Compile Include="Euclidean\Line2D.cs" />
     <Compile Include="Euclidean\Matrix2D.cs" />
     <Compile Include="Euclidean\Point2D.cs" />
+    <Compile Include="Euclidean\Rectangle2D.cs" />
+    <Compile Include="Euclidean\Rectangle3D.cs" />
     <Compile Include="Euclidean\Vector2D.cs" />
     <Compile Include="Projective\Matrix3DHomogeneous.cs" />
     <Compile Include="Projective\Point3DHomogeneous.cs" />
